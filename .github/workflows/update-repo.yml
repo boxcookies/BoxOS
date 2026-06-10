@@ -6,6 +6,7 @@ on:
       - rpm-repo
     paths:
       - '*.rpm'
+  workflow_dispatch:
 
 jobs:
   update-repo:
